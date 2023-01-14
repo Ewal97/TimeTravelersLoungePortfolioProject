@@ -1,0 +1,19 @@
+{
+  "name": "time-travelers-lounge",
+  "version": "1.0.0",
+  "description": "Portfolio project for NuCamp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Elekzander Waldron",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
