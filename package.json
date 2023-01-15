@@ -2,11 +2,11 @@
   "name": "time-travelers-lounge",
   "version": "1.0.0",
   "description": "Portfolio project for NuCamp",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git"
@@ -17,6 +17,10 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
