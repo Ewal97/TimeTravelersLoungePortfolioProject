@@ -24,10 +24,22 @@ footer {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    background-image: url("../img/brick.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
 .navbar {
     background-color: #901cad;
+}
+
+#titleImage {
+    width: 300px;
+}
+
+.title-content {
+    background-color: #eaeeff77;
+    border-radius: 10px;
 }
