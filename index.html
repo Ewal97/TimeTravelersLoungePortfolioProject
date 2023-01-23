@@ -15,16 +15,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <img id="titleImage" class="title-content" src="img/logo.png">
+                    <a href="#"><img id="titleImage" class="img img-fluid" src="img/logo.png"></a>
                     <!-- <h1>Time Traveler's Lounge</h1>
                     <h2>a Timeless Hangout</h2> -->
+                </div>
+                <div class="col align-self-center">
+                    <h1 class="title-content">A Timeless Hangout</h1>
                 </div>
             </div>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-sm  navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-dark">
         <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logoIcon.png" height="30" width="30" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#timeTravelerNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,7 +37,14 @@
                         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="aboutUs.html"><i class="fa fa-info fa-lg"></i> About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa fa-list-alt fa-lg"></i> Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="cocktailRecipies.html"><i class="fa fa-list fa-lg"></i> Recipes</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="cocktailDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list fa-lg"></i> Recipes</a>
+                            <div class="dropdown-menu" aria-labelledby="cocktailDropdown">
+                                <a class="dropdown-item" href="cocktail1.html">A Trip to Parliament</a>
+                                <a class="dropdown-item" href="cocktail2.html">Amongst the Clouds</a>
+                                <a class="dropdown-item" href="cocktail3.html">Deep Gamma</a>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="apply.html"><i class="fa fa-edit fa-lg"></i> Apply</a></li>
                     </ul>

@@ -17,14 +17,17 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-image: url("../img/brick.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 20px 0;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: url("../img/brick.jpg");
+    background-color: #000000;
+    /*background-image: url("../img/brick.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +36,10 @@ footer {
 
 .navbar {
     background-color: #901cad;
+    color: #901cad;
+}
+.navbar:link {
+    color: black;
 }
 
 #titleImage {
@@ -40,6 +47,5 @@ footer {
 }
 
 .title-content {
-    background-color: #eaeeff77;
-    border-radius: 10px;
+    
 }
