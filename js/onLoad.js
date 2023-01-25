@@ -1,5 +1,7 @@
 $(function() {
     $("#ageVerify").modal('show');
+    $("#ageVerify").modal({backdrop: "static"});
+
 });
 
 $(function() {
@@ -12,5 +14,6 @@ $(function() {
     $("#btnNo").click(function(){
         $("#ageVerify").modal("hide");
         $("#ageGateModal").modal("show");
+        $("#ageGateModal").modal({backdrop: "static"});
     })
 })

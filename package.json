@@ -4,11 +4,15 @@
   "description": "Portfolio project for NuCamp",
   "main": "index.js",
   "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
@@ -18,6 +22,7 @@
   "author": "Elekzander Waldron",
   "license": "ISC",
   "devDependencies": {
+    "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
     "node-sass": "^6.0.1",
@@ -29,7 +34,6 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
-    "copyfiles": "^2.2.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"

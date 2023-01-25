@@ -65,8 +65,11 @@ footer {
 }
 
 .modal {
-    .modal-popout-bg {
-        background-image: url("img/WoodPanel.jpg");
-        background-repeat: repeat;
-    }
+    background-image: url("../img/WoodPanel.jpg");
+    background-repeat: repeat;
+    background-color: rgba(0, 0, 0, 255);
+}
+
+.modal-header {
+    background-color: $our-slate;
 }

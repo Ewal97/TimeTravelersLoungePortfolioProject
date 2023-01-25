@@ -40,6 +40,10 @@ footer {
 #titleImage {
   width: 300px; }
 
-.modal .modal-popout-bg {
-  background-image: url("img/WoodPanel.jpg");
-  background-repeat: repeat; }
+.modal {
+  background-image: url("../img/WoodPanel.jpg");
+  background-repeat: repeat;
+  background-color: black; }
+
+.modal-header {
+  background-color: #2c2f30; }
