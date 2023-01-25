@@ -11,6 +11,60 @@
     <title>Time Traveler's Lounge: A Cocktail Bar</title>
 </head>
 <body>
+
+    <div class="modal fade" id="ageVerify" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h1 class="modal-title">Age Verification</h1>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col text-center">
+                                <h2>Are you</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <h2>21 years</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <h2>of age</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col text-center">
+                                <h2>or older?</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-4"></div>
+                            <div class="col-2">
+                                <button type="button" id="btnYes" class="btn btn-success">YES</button>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" id="btnNo" class="btn btn-danger">NO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ageGateModal" role="dialog" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="col"><h2>You are not permitted to enter this website!</h2></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
@@ -97,5 +151,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/onLoad.js"></script>
 </body>
 </html>

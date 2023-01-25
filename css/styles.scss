@@ -1,0 +1,71 @@
+$our-orange: #febe50;
+$our-purple: #8338ae;
+$our-green: #40cd29;
+$our-slate: #2c2f30;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: Arial, Helvetica, sans-serif;
+$title-font: Copperplate, fantasy;
+
+
+body {
+    font-family: $body-font;
+    background-color: $our-slate;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $title-font;
+}
+
+h2 {
+    color: $our-purple;
+}
+
+header {
+    h2 {
+    color: #cec8ff;
+    }
+}
+
+footer {
+    background-image: url("../img/brick.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #000000;
+    /*background-image: url("../img/brick.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    background-color: $our-green;
+    color: $our-slate;
+}
+.navbar:link {
+    color: black;
+}
+
+#titleImage {
+    width: 300px;
+}
+
+.title-content {
+    
+}
+
+.modal {
+    .modal-popout-bg {
+        background-image: url("img/WoodPanel.jpg");
+        background-repeat: repeat;
+    }
+}

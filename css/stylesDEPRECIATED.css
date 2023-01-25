@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046c5;
+}
+
+header h2 {
+    color: #cec8ff;
+}
+
+footer {
+    background-image: url("../img/brick.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #000000;
+    /*background-image: url("../img/brick.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navbar {
+    background-color: #901cad;
+    color: #901cad;
+}
+.navbar:link {
+    color: black;
+}
+
+#titleImage {
+    width: 300px;
+}
+
+.title-content {
+    
+}
