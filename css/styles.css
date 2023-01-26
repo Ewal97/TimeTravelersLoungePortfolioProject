@@ -19,6 +19,8 @@ footer {
   background-size: cover;
   background-position: center;
   padding: 20px 0; }
+  footer h5 {
+    color: white; }
 
 .jumbotron {
   margin: 0;
@@ -47,3 +49,35 @@ footer {
 
 .modal-header {
   background-color: #2c2f30; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.707); }
+
+.carousel {
+  border: solid #febe50; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.mainInfo {
+  font-size: xx-large;
+  text-align: right; }
+
+.secondInfo {
+  color: #febe50;
+  font-size: large;
+  text-align: right; }
+
+.foot-box {
+  background-color: rgba(0, 0, 0, 0.707);
+  border-radius: 15px;
+  padding: 20px 0; }
+
+.our-link {
+  color: #40cd29; }
+
+.our-link:hover {
+  color: #308224; }

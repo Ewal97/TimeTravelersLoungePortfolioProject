@@ -2,7 +2,7 @@ $our-orange: #febe50;
 $our-purple: #8338ae;
 $our-green: #40cd29;
 $our-slate: #2c2f30;
-$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-black-transparent: rgba(0, 0, 0, 0.707);
 
 $body-font: Arial, Helvetica, sans-serif;
 $title-font: Copperplate, fantasy;
@@ -35,6 +35,9 @@ footer {
     background-size: cover;
     background-position: center;
     padding: 20px 0;
+    h5 {
+        color: white;
+    }
 }
 
 .jumbotron {
@@ -72,4 +75,44 @@ footer {
 
 .modal-header {
     background-color: $our-slate;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border: solid $our-orange;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.mainInfo {
+    font-size:xx-large;
+    text-align: right;
+}
+
+.secondInfo {
+    color: $our-orange;
+    font-size: large;
+    text-align: right;
+}
+
+.foot-box {
+    background-color: $color-black-transparent;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+.our-link {
+    color: $our-green;
+}
+
+.our-link:hover {
+    color:#308224;
 }
