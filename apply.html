@@ -58,7 +58,63 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <p>There is some content here.</p>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Apply</li>
+                </ol>
+                <h2>Apply to work with us:</h2>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4>Fill out this application:</h4>
+            </div>
+            <div class="col-md-10">
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                    </div>
+                    <div class="col-7">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="selfDesc" class="col-md-2 col-form-label">Give a brief description of yourself</label>
+                    <div class="col-md-10">
+                        <textarea type="text" class="form-control" id="selfDesc" name="selfDesc" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="resumeUpload" class="col-md-2 col-form-label">Upload your resume [optional]</label>
+                    <div class="col-md-10">
+                        <input type="file" id="resumeUpload" name="resumeUpload">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-light">Send Application</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

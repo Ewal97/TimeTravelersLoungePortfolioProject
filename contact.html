@@ -56,11 +56,86 @@
     </nav>
 
     <div class="container">
+
         <div class="row">
             <div class="col">
-                <p>There is some content here.</p>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+                <h2>Contact Us</h2>
+                <hr />
             </div>
         </div>
+
+        <div class="row align-items-center">
+            <div class="col-sm-4">
+                <h3>Visit us:</h3> 
+                <address>
+                    1337 Some Way<br />
+                    Casper, WY 82601<br />
+                    U.S.A.
+                </address>
+            </div>
+            <div class="col">
+				<a role="button" class="btn btn-link" href="tel:+13075551288"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+            	<a role="button" class="btn btn-link" href="mailto:timetraveler@example.co"><i class="fa fa-envelope-o"></i> timetraveler@example.co</a>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-12">
+                <h2>Leave us some feedback:</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            May we contact you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                <label for="contactYes" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                <label for="contactNo" class="form-check-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </div>
+
     </div>
 
     <footer>
