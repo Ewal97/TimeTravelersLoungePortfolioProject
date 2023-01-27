@@ -153,3 +153,14 @@ footer {
 .menu-container {
     margin: 20px auto;
 }
+
+.breadcrumb {
+    background-color: $our-slate;
+    .active {
+        color: white;
+    }
+}
+
+.card {
+    color: black;
+}

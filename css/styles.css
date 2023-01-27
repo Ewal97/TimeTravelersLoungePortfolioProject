@@ -112,3 +112,11 @@ footer {
 
 .menu-container {
   margin: 20px auto; }
+
+.breadcrumb {
+  background-color: #2c2f30; }
+  .breadcrumb .active {
+    color: white; }
+
+.card {
+  color: black; }
