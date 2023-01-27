@@ -81,3 +81,34 @@ footer {
 
 .our-link:hover {
   color: #308224; }
+
+.mainText {
+  font-size: 22px;
+  text-align: left;
+  color: #e1d9cd; }
+
+.secondText {
+  font-size: 26px;
+  color: #8338ae; }
+
+#aboutBox {
+  border-radius: 15px;
+  margin: 30px auto; }
+
+.menu-desc {
+  color: white;
+  font-size: 20px; }
+
+.menu-title h2 {
+  color: black;
+  font-size: 40px;
+  text-align: right; }
+
+.menu-row {
+  background-color: #8338ae;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px; }
+
+.menu-container {
+  margin: 20px auto; }

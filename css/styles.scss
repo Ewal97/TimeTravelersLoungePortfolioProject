@@ -2,6 +2,7 @@ $our-orange: #febe50;
 $our-purple: #8338ae;
 $our-green: #40cd29;
 $our-slate: #2c2f30;
+$secondary: #e1d9cd;
 $color-black-transparent: rgba(0, 0, 0, 0.707);
 
 $body-font: Arial, Helvetica, sans-serif;
@@ -115,4 +116,47 @@ footer {
 
 .our-link:hover {
     color:#308224;
+}
+
+.mainText {
+    font-size: 22px;
+    text-align: left;
+    color: $secondary;
+}
+
+.secondText {
+    font-size: 26px;
+    color: $our-purple;
+}
+
+#aboutBox {
+    border-radius: 15px;
+    margin: 30px auto;
+}
+
+.menu-desc {
+    color: white;
+    font-size: 20px;
+}
+
+.col-spacer {
+}
+
+.menu-title {
+    h2{
+        color: black;
+        font-size: 40px;
+        text-align: right;
+    }
+}
+
+.menu-row {
+    background-color: $our-purple;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu-container {
+    margin: 20px auto;
 }
